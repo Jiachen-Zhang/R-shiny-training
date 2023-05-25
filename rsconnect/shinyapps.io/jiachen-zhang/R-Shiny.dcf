@@ -5,9 +5,10 @@ account: jiachen-zhang
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 9182111
-bundleId: 7260122
+bundleId: 7260459
 url: https://jiachen-zhang.shinyapps.io/R-Shiny/
-when: 1684981736.21934
-lastSyncTime: 1684981736.21935
+when: 1684986280.40019
+lastSyncTime: 1684986280.4002
 asMultiple: FALSE
 asStatic: FALSE
+ignoredFiles: debug.R|R Shiny Assignment.xlsx|README.md|test.R
