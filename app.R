@@ -82,7 +82,7 @@ server <- function(input, output, session) {
       geom_point(size = 1.5) +
       geom_text(label=Amount, hjust=0.5, vjust=-1, 
                 check_overlap = TRUE, size = 3, color = "black") +
-      geom_line(size = 0.5) +
+      geom_line(linewidth = 0.5) +
       xlab("Development Year") +
       ylab("Amount ($)") +
       labs(title = "Cumulative Paid Claims", color = "Loss Year") +
