@@ -73,8 +73,8 @@ server <- function(input, output, session) {
   
   claims.plot <- reactive({
     full.triangle <- claims.triangle()
-    Development = rep(c(1:(number_dev_year+1)), times = number_loss_year)
-    Loss = as.character(rep(loss_years, each = number_dev_year + 1))
+    Development = rep(c(1:(max(df$`Development Year`)+1)), times = number_loss_year)
+    Loss = as.character(rep(loss_years, each = max(df$`Development Year`)+1))
     Amount = round(c(t(full.triangle)))
     
     df_plot = data.frame(Development, Loss, Amount)
